@@ -1,6 +1,10 @@
 public class Heart {
     // PROPERTIES
     private String color;
+    private String sizeSayings;
+    private String Calories;
+    private String Cost;
+    private String Availability;
     //Add remaining heart properties here...
 
 
