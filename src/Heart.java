@@ -57,7 +57,6 @@ public class Heart {
     public boolean getAvailable(){
         return this.available;
     }
-
     public String getReport(){
         String report="Color: "+ this.color + "\n"+"Sayings: "+ this.sayings + "\n"+"Size: "+ this.size + "\n"+"Calories: "+ this.calories + "\n"+"Stock: "+ this.stock + "\n"+"Cost: "+ this.cost + "\n"+"Available: "+ this.available + "\n"; 
         return report;
@@ -76,36 +75,7 @@ public class Heart {
 
         }
     }
-
-
-
-/*
-    public void setColor(String color) {
-        this.color = color;
-    }
-    public void setSayings(String sayings) {
-        this.sayings=sayings;
-    }
-    public void setSize(int size) {
-        this.size=size;
-    }
-     public void setCalories(int calories) {
-        this.
-    }
-    public void setStock(int stock) {
-        this.
-    }
-    public void setCost(double cost) {
-        this.
-    }
-    public void setAvailable(boolean available) {
-         this.
-    }
     //Add remaining Mutator methods here...
-*/
     // METHODS
-    public String report() {
-        return this.color + "\n"; // Add other properties here as you add them to the class
-    }
-    //Write other methods here (if needed)...
+
 }
